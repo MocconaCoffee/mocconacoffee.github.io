@@ -1,5 +1,5 @@
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
+@import url(https://mocconacoffee.github.io/bdstuff/SettingsIcons.css);
+@import url(https://mocconacoffee.github.io/bdstuff/BlurpleRecolor/BlurpleRecolor.css);
 @import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
 
 :root {
@@ -13,7 +13,7 @@
 	--dfont:						Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
 	--dtextshadow:					transparent;
 
-	--dbackground:					url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/_res/background.jpg);
+	--dbackground:					url(https://external-preview.redd.it/GOkP8onbuyjGmN9Rc8Que5mw21CdSw6OuXpAKUuE6-4.jpg?auto=webp&s=2bc0e522d1f2fa887333286d557466b2be00fa5e);
 	--dbackgroundsize:				cover;
 	--dbackgroundposition:			center;
 	--dblur:						unset;
@@ -8075,7 +8075,7 @@ html .channelTabs-newTab:hover {
 /* ~~~~		19.		UPDATENOTICE					~~~~ */
 
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp::before {
-	content: "Your version of   BasicBackground   by DevilBro is outdated. Please download the newest version from:	https://github.com/mwittrien/BetterDiscordAddons/blob/master/Themes/BasicBackground" !important;
+	content: "Your version of   BasicBackground  is outdated. Please download the newest version from:	https://github.com/mwittrien/BetterDiscordAddons/blob/master/Themes/BasicBackground" !important;
 	display: var(--version1_0_5, block) !important;
 	background-color: #4a90e2 !important;
 	box-shadow: 0 1px 5px 0 rgba(var(--vtransparencycolor), 0.3) !important;

@@ -7,14 +7,14 @@
 	--vaccentcolor2: var(--accentcolor2, var(--daccentcolor2));
 	--dlinkcolor: 0,176,244;
 	--vlinkcolor: var(--linkcolor, var(--dlinkcolor));
-	
+
 	--dfontwhite1: 255,255,255;
-	
+
 	--vaccentcolor-hover: rgb(var(--vaccentcolor)) linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
 	--vaccentcolor-active: rgb(var(--vaccentcolor)) linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
 	--vaccentcolor2-hover: rgb(var(--vaccentcolor2)) linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
 	--vaccentcolor2-active: rgb(var(--vaccentcolor2)) linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
-	
+
 	--bdfdb-blurple: rgb(var(--vaccentcolor)) !important;
 	--bd-blue: rgb(var(--vaccentcolor)) !important;
 	--bd-blue-hover: var(--vaccentcolor-hover) !important;
@@ -845,7 +845,7 @@
 	50% {border-color: rgb(var(--vaccentcolor));}
 	to {border-color: transparent;}
 }
-@keyframes pulseBorder-1LZYy9 { 
+@keyframes pulseBorder-1LZYy9 {
 	0% {border-color: transparent;}
 	50% {border-color: rgb(var(--vaccentcolor));}
 	to {border-color: transparent;}
@@ -1200,7 +1200,7 @@
 	-webkit-mask: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/blurple/files_code_accent.svg) center/contain no-repeat;
 }
 .attachment-33OFj0 .icon-1kp3fr[title="document"] + *::after,
-.uploadModal-2ifh8j .icon-kyxXVr.document-2cvI0u::after, 
+.uploadModal-2ifh8j .icon-kyxXVr.document-2cvI0u::after,
 .uploadModalIn-1z07Bv .icon-kyxXVr.three-27ScFD::after {
 	-webkit-mask: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/blurple/files_document_accent.svg) center/contain no-repeat;
 }
