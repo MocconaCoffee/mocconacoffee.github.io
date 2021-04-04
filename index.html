@@ -18,8 +18,13 @@
           <div style='float:left; margin-bottom:20px;'>
             MocconaCoffee
           </div>
-          <audio src="./bg.mp3" autoplay="autoplay" loop="loop"></audio>
           </div>
+          <script>window.addEventListener("DOMContentLoaded", event => {
+            const audio = document.querySelector("audio");
+            audio.volume = 0.2;
+            audio.play();
+          });</script>
+          <audio src="./bg.mp3"></audio>
         </h1>
         <h3 style='clear:both' class="subhead">
              Hello, I write small pieces of code mostly for fun.
