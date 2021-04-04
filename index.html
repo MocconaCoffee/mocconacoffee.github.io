@@ -5,39 +5,7 @@
   <meta charset="utf-8">
   <title>Moccona</title>
   <meta name="ownership" content="mocconacoffee.github.io">
-  <script type="text/javascript" src="world.js"></script>
-  <script id="vertex-shader" type="x-shader/x-vertex">
-		attribute vec4 aVertex;
-		attribute vec2 aTexCoord;
-	
-		uniform mat4 uModelMatrix;
-		uniform mat4 uViewMatrix; 
-		uniform mat4 uProjectionMatrix;
-		uniform sampler2D uSampler;
-		
-		varying vec4 vColor;
-		
-		void main(){
-			gl_Position = uProjectionMatrix*uViewMatrix*uModelMatrix*aVertex;
-		
-			vec4 color = vec4((aVertex.x+1.0)*.5,(aVertex.y+1.0)*.5,(aVertex.z+1.0)*.5,1.0);
-			vec4 texColor =texture2D(uSampler, aTexCoord); 
-			
-			gl_PointSize = (1.0+(texColor.g+texColor.r)*2.0-gl_Position.z*1.5)*2.0;
-			
-			vColor = color*texColor;
-		}
-</script>
 
-<script id="fragment-shader" type="x-shader/x-fragment">
-		precision mediump float;
-	
-		varying vec4 vColor;
-	
-		void main(){
-			gl_FragColor = vColor;
-		}
-</script>
   <style type="text/css" id="text-style">
     p {
       margin: 0px;
@@ -61,7 +29,7 @@ body {
 
 canvas{
 	border-style: solid;
-	border-color:#ffffff;
+	border-color:#000000;
 	margin-top: 10px;
 	margin-left:10px;
 }
