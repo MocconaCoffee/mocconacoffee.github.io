@@ -8,7 +8,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel="stylesheet" href="css/page.css">
   <link rel="stylesheet" href="css/particles.css">
-
+  <script>window.onload = function() {
+    document.getElementById("background_audio").play();
+}</script>
 </head>
 
 <body>
@@ -19,13 +21,7 @@
           <div style='float:left; margin-bottom:20px;'>
             MocconaCoffee
           </div>
-          <div class="stage">
-            <div class="pyramid3d">
-              <div class="triangle side1"></div>
-              <div class="triangle side2"></div>
-              <div class="triangle side3"></div>
-              <div class="triangle side4"></div>
-            </div>
+          <audio id="background_audio" src="bg.mp3" loop="loop"></audio>
           </div>
         </h1>
         <h3 style='clear:both' class="subhead">
@@ -33,7 +29,7 @@
           I'm not quite active on my GitHub, so I apologize.
         </h3>
         <p id='pleft'>
-          Also! please check this out ---> <center><iframe width="150" height="150" src="https://www.youtube.com/embed/9FSVPnVLUUQ&autoplay=1" title="YouTube video player" frameborder="0"  autoplay;></iframe></center>
+          Also!
         </p>
         <p id='pright'>
           <li><ul>"Imagination is more important than knowledge."</ul></li>
