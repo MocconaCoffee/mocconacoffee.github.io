@@ -5,7 +5,91 @@
   <meta charset="utf-8">
   <title>Moccona</title>
   <meta name="ownership" content="mocconacoffee.github.io">
-  <script type="text/javascript" src="world.js"></script>
+  <style type="text/css" id="text-style">
+    p {
+      margin: 0px;
+    }
+    h1 {
+      margin: 0px;
+    }
+    h2 {
+      margin: 0px;
+    }
+    h3 {
+      margin: 0px;
+    }
+    *{margin:0px;}
+
+html, body { width:100%; height:100%; }
+
+body {
+		background-color: #000;
+}
+
+canvas{
+	border-style: solid;
+	border-color:#ffffff;
+	margin-top: 10px;
+	margin-left:10px;
+}
+
+#canvas{
+	display:inline;
+	margin-top: 10px;
+}
+
+.container {
+		display:block;
+		text-align: center;
+		border-color:#ffffff;
+		width: 50px;
+		padding:10px;
+}
+
+#partnum{
+	display:inline;
+	float:right;
+	width: 70px;
+	margin:10px;
+	padding:0px;
+}
+
+button{
+	margin:5px;
+	cursor: pointer;
+}
+  </style>
+  <style type="text/css">
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+    }
+    body {
+      background-color: transparent;
+      transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      transform-style: preserve-3d;
+    }
+    .p-b374 {
+      position: absolute;
+      width: 510px;
+      transform-origin: 50% 50% 0px;
+      left: 49px;
+      top: 353px;
+      height: 45px;
+    }
+    .h1-1dv6 {
+      position: absolute;
+      left: 49px;
+      top: 416px;
+      transform-origin: 50% 50% 0px;
+      width: 510px;
+      height: 22px;
+    }
+  </style>
+</head>
+
+<body class="htmlNoPages">
   <script id="vertex-shader" type="x-shader/x-vertex">
 		attribute vec4 aVertex;
 		attribute vec2 aTexCoord;
@@ -53,92 +137,6 @@
 	
 	<img id="texImage0" crossOrigin="" src="https://s3.amazonaws.com/glowscript/textures/earth_texture.jpg" hidden></img>		
 </div>
-
-  <style type="text/css" id="text-style">
-    p {
-      margin: 0px;
-    }
-    h1 {
-      margin: 0px;
-    }
-    h2 {
-      margin: 0px;
-    }
-    h3 {
-      margin: 0px;
-    }
-  </style>
-  <style type="text/css">
-    html, body {
-      width: 100%;
-      height: 100%;
-      margin: 0px;
-    }
-    body {
-      background-color: transparent;
-      transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-      transform-style: preserve-3d;
-    }
-    .p-b374 {
-      position: absolute;
-      width: 510px;
-      transform-origin: 50% 50% 0px;
-      left: 49px;
-      top: 353px;
-      height: 45px;
-    }
-    .h1-1dv6 {
-      position: absolute;
-      left: 49px;
-      top: 416px;
-      transform-origin: 50% 50% 0px;
-      width: 510px;
-      height: 22px;
-    }
-    *{margin:0px;}
-
-html, body { width:100%; height:100%; }
-
-body {
-		background-color: #000;
-}
-
-canvas{
-	border-style: solid;
-	border-color:#ffffff;
-	margin-top: 10px;
-	margin-left:10px;
-}
-
-#canvas{
-	display:inline;
-	margin-top: 10px;
-}
-
-.container {
-		display:block;
-		text-align: center;
-		border-color:#ffffff;
-		width: 50px;
-		padding:10px;
-}
-
-#partnum{
-	display:inline;
-	float:right;
-	width: 70px;
-	margin:10px;
-	padding:0px;
-}
-
-button{
-	margin:5px;
-	cursor: pointer;
-}
-  </style>
-</head>
-
-<body class="htmlNoPages">
   <h1 class="p-b374">Website not complete</h1>
   <p class="h1-1dv6">This web page is not complete, as it is a personal and non-essential page.</p>
   </body>
