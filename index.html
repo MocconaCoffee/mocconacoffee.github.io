@@ -11,6 +11,12 @@
 </head>
 
 <body>
+  <audio src="bg.mp3" id="my_audio" loop="loop"></audio>
+  <script type="text/javascript">
+    window.onload=function(){
+      document.getElementById("my_audio").play();
+    }
+  </script>
   <div id="container">
     <div id="content">
       <div id="about">
@@ -19,12 +25,6 @@
             MocconaCoffee
           </div>
           </div>
-          <script>window.addEventListener("DOMContentLoaded", event => {
-            const audio = document.querySelector("audio");
-            audio.volume = 0.2;
-            audio.play();
-          });</script>
-          <audio src="./bg.mp3"></audio>
         </h1>
         <h3 style='clear:both' class="subhead">
              Hello, I write small pieces of code mostly for fun.
