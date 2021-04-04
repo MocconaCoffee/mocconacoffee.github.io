@@ -42,7 +42,7 @@ body {
       text-decoration: underline;
   }
   p#pleft {
-      max-width:30em;
+      max-width:20em;
       float:left;
   }
   p#pright {
